@@ -1,0 +1,39 @@
+:root {
+
+    --primary-color: #6a80c7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.skills-card {
+    height: 430px;
+    box-shadow: .5px .5px 15px 8px #f3f3f3;
+    border-radius: 15px;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.cert-logos {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    bottom: -3px;
+    left: 0;
+    background: var(--primary-color);
+}
