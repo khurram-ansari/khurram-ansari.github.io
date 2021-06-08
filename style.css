@@ -37,3 +37,13 @@ body {
     left: 0;
     background: var(--primary-color);
 }
+
+@media screen and (max-width:414px) {
+    .sm-flip {
+        flex-direction: column-reverse;
+    }
+
+    .margin-sm-b {
+        margin-bottom: 20px;
+    }
+}
